@@ -1,0 +1,59 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.container {
+  width: 700px; /* set the width of your container */
+  margin: 40px auto; /* set margins: top/bottom: 40px; left/right: automatic */
+}
+
+.container h1 {
+  text-align: center;
+  color: cornflowerblue;
+}
+
+.container h2 {
+  color: lightskyblue;
+  font-weight: bolder;
+}
+
+.card-white {
+  transition: 1s all;
+  background-color: white;
+  border-radius: 5px;
+  padding: 30px;
+  border: 1px solid lightgrey;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+.info p {
+  text-align: center;
+}
+
+.img-circle {
+  width: 200px;
+  border-radius: 5%;
+}
+
+.card-white:hover {
+  transform: scale(1.05);
+}
+
+.list-inline {
+  list-style: none; /* kill the bullet points */
+  padding-left: 0px; /* kill remaining padding left */
+}
+.list-block > li {
+  display: block; /* change list item behavior to inline */
+  padding: 0px 20px; /* add som left/right padding between list items */
+}
+
+@media (max-width: 700px) {
+  .container {
+    width: 100%;
+  }
+}
