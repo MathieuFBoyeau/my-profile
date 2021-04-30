@@ -19,7 +19,7 @@ body {
 
 .card-white {
   transition: 1s all;
-  background-color: white;
+  background-color:#A98362;
   border-radius: 5px;
   padding: 30px;
   border: 1px solid lightgrey;
